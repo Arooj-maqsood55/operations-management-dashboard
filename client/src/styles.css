@@ -1,0 +1,51 @@
+:root {
+  --bg: #f3efe6;
+  --ink: #1f2a24;
+  --accent: #0f6a5b;
+  --card: #fffdf8;
+  --line: #d7d0c4;
+}
+
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: "IBM Plex Sans", "Segoe UI", sans-serif;
+  background: linear-gradient(180deg, #efe8da, #f7f4ee 40%, #e7f0ec);
+  color: var(--ink);
+}
+.page { max-width: 900px; margin: 0 auto; padding: 2rem 1rem 3rem; }
+header h1 { margin-bottom: 0.25rem; }
+.card, .filters {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+label { display: block; margin-bottom: 0.75rem; }
+input, select, textarea, button {
+  width: 100%;
+  margin-top: 0.35rem;
+  padding: 0.6rem 0.7rem;
+  border-radius: 8px;
+  border: 1px solid var(--line);
+  font: inherit;
+}
+button {
+  background: var(--accent);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.task-list { list-style: none; padding: 0; margin: 0; }
+.task-list li { padding: 0.75rem 0; border-top: 1px solid var(--line); }
+.badge {
+  display: inline-block;
+  margin-left: 0.5rem;
+  padding: 0.15rem 0.5rem;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  background: #e6f3ef;
+}
+.muted { color: #66706a; }
+.error { color: #9b2c2c; }
