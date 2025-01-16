@@ -1,0 +1,4 @@
+title,owner,status,description
+Sync import report,Arooj Maqsood,in_progress,Validate CSV before dashboard upload
+Fix API error states,Arooj Maqsood,todo,Return clear validation messages
+Close blocked tickets,Arooj Maqsood,blocked,Waiting on MongoDB index update
